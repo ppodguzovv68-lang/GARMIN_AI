@@ -1,6 +1,33 @@
+# Python virtualenv
 .venv/
+venv/
+env/
+
+# Python cache
 __pycache__/
 *.pyc
+
+# Local data
+*.sqlite
+*.sqlite3
+*.db
 data/
+uploads/
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+
+# Env files
+.env
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+
+# Logs
 server.log
 server_err.log

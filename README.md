@@ -1,10 +1,14 @@
-# GARMIN_AI
+# Garmin Training AI
 
-Locally-run training analytics app for Garmin workouts with AI-assisted training recommendations.
+Локальное приложение для анализа тренировок Garmin: импорт тренировок, расчёт нагрузки, восстановления и готовности, рекомендации по тренировочному процессу с помощью локального ИИ.
 
-## Stack
+## Быстрый запуск (черновик)
 
-- Backend: Python + FastAPI
-- Frontend: simple HTML served by FastAPI (later: React/Next.js)
-- Database: SQLite
-- Local AI: Ollama (later)
+Раздел в работе, появится по мере развития проекта.
+
+Предполагаемый порядок:
+
+1. Создать окружение: `python -m venv .venv`
+2. Установить зависимости: `.\.venv\Scripts\pip.exe install -r backend\requirements.txt`
+3. Запустить сервер: `.\.venv\Scripts\python.exe -m uvicorn backend.main:app --port 8000`
+4. Открыть http://127.0.0.1:8000
